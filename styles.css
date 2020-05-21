@@ -203,7 +203,7 @@ body {
 
 .explore-button {
   width: 20%;
-  height: 65px;
+  height: 20%;
   border: solid 5px #222831;
   background-color: #30475e;
   border-radius: 5px;
@@ -228,7 +228,7 @@ body {
 
 .footer {
   background-color: #30475e;
-  margin: 150px auto 0;
+  margin: 100px auto 0;
   padding: 50px;
   text-align: center;
 }
@@ -254,7 +254,8 @@ body {
     top: -8px;
     position: relative;
     background-color: #c1a57b;
-    color: #222831;
+    color: white;
+    text-decoration: none;
     padding-bottom: 0;
     font-size: 1.5rem;
   }
@@ -278,7 +279,7 @@ body {
   }
   .explore-button {
     width: 75%;
-    height: 100px;
+    height: 20%;
     margin: 25px auto;
   }
   .footer i {
