@@ -10,6 +10,12 @@ body {
   overflow: hidden;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .section-title {
   color: #30475e;
   font-weight: 900;
@@ -218,6 +224,31 @@ body {
   background-color: #222831;
 }
 
+/* FOOTER */
+
+.footer {
+  background-color: #30475e;
+  margin: 150px auto 0;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer i {
+  padding: 25px;
+  color: #ececec;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  color: white;
+  position: relative;
+  top: 50px;
+}
+
+.footer i:hover {
+  color: #c1a57b;
+}
+
 @media (max-width: 800px) {
   .logo {
     top: -8px;
@@ -225,6 +256,10 @@ body {
     background-color: #c1a57b;
     color: #222831;
     padding-bottom: 0;
+    font-size: 1.5rem;
+  }
+  .services ul {
+    right: 10%;
   }
   .sec-1 {
     flex-direction: column;
@@ -245,5 +280,8 @@ body {
     width: 75%;
     height: 100px;
     margin: 25px auto;
+  }
+  .footer i {
+    padding: 10px;
   }
 }
