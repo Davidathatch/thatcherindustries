@@ -273,9 +273,8 @@ body {
     margin: 15px auto;
   }
   .sec-3 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
     height: 400px;
   }
   .explore-button {
