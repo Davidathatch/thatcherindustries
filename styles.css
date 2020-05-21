@@ -276,10 +276,11 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    height: 400px;
   }
   .explore-button {
-    width: 75%;
-    height: 30%;
+    width: 300px;
+    height: 75px;
     margin: 25px auto;
   }
   .footer i {
